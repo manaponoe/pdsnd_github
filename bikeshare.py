@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+
 CITY_LIST = ['all','chicago','new york city','new_york_city', 'washington']
 MONTH_LIST = ['all', 'january','february','march','april','may','june']
 DAY_LIST = ['all','monday','tuesday','wednesday','thursday', 'friday', 'saturday']
@@ -40,7 +41,6 @@ def get_filters():
              
     print('-'*40)
     return city, month, day
-
 
 
 def load_data(city, month, day):

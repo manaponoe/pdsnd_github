@@ -2,14 +2,12 @@
 Sat, Nov 9 4:33 am
 
 ### Project Title
-
 Udacity Data Analyst Degree - Project II
 
 ### Description
 In this project, I will explore data on bike sharing systems for three major cities in the United States: Chicago, New York and Washington. the programming language to use for this project is python. I will first write a code to import the data and answer some interesting questions about it by calculating descriptive statistics and finally I will write a script that takes raw input to create an interactive experience in the terminal in order to present these statistics.
 
 ### Files used
-
 The datasets provided by Motivate, a bike share system provider in the US, contains randomly selected data for the first six months of 2017 for all three cities. The data files for all three cities contain the same core six columns:
 
     Start Time
@@ -37,7 +35,6 @@ The Chicago and New York City files also have the following two columns:
     What are the counts of each user type?
     What are the counts of gender?
     What is the earliest birth year (when the oldest person was born), most recent birth year, and most common birth year?
-
 
 
 ### Credits
