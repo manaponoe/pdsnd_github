@@ -3,13 +3,16 @@ import pandas as pd
 import numpy as np
 import json
 
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+
 CITY_LIST = ['all','chicago','new york city','new_york_city', 'washington']
 MONTH_LIST = ['all', 'january','february','march','april','may','june']
 DAY_LIST = ['all','monday','tuesday','wednesday','thursday', 'friday', 'saturday']
+
 
 def get_filters():
     """
@@ -40,8 +43,6 @@ def get_filters():
              
     print('-'*40)
     return city, month, day
-
-
 
 def load_data(city, month, day):
     """
@@ -90,7 +91,6 @@ def load_data(city, month, day):
         df = df[df['day'] == day]
    
     return df
-
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
